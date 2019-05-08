@@ -1,6 +1,6 @@
-#KAIZEN React - Practice Web
+# KAIZEN React - Practice Web
 
-##My first React Page
+## My first React Page
 
 Its a small web proyect using __React__ where you can edit and add React Programing Tricks. 
 
