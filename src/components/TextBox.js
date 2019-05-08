@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/TextBox.css'
-import AOS from 'aos'
+
 
 class TextBox extends React.Component {
 
@@ -19,7 +19,7 @@ class TextBox extends React.Component {
         <div className='Consejo_1' id="Consejo-1" data-aos="fade-right">
            
     
-                <h1 className="Consejo1_titulo"> {this.props.Titulo} - {this.props.Numero} </h1>
+                <h1 className="Consejo1_titulo"> {this.props.Titulo} #{this.props.Numero} </h1>
                 <p> {this.props.Texto} </p>
             
         </div>
@@ -28,7 +28,7 @@ class TextBox extends React.Component {
                 <div className='Consejo_1' id="Consejo-2" data-aos="fade-left">
                    
             
-                        <h1 className="Consejo1_titulo"> {this.props.Titulo} - {this.props.Numero}</h1>
+                        <h1 className="Consejo1_titulo"> {this.props.Titulo} #{this.props.Numero}</h1>
                         <p> {this.props.Texto} </p>
                     
                 </div>

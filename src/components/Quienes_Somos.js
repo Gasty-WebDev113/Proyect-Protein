@@ -56,7 +56,11 @@ class Quienes_Somos extends React.Component {
 
                 <TextBox Titulo={tip}  Numero='8' Texto={ text } />
 
+                <TextBox Titulo={tip} Numero='9' Texto={ text } />
 
+                <TextBox Titulo={tip}  Numero='10' Texto={ text }/>
+
+                
              
 
             </div>
