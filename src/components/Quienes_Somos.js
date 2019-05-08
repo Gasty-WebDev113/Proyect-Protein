@@ -24,6 +24,10 @@ class Quienes_Somos extends React.Component {
 
     render(){
 
+        const text = '"Lorem Ipsum is simply dummy text of the printing and typesetting industry". Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book'
+
+        const tip = "Tip"
+
         return(
         <div>
            
@@ -36,15 +40,24 @@ class Quienes_Somos extends React.Component {
                      !!! Tips For New Developers !!!!</h1> 
                 </div>
 
-                <TextBox Titulo="Tip-2" Texto="Hola a todo mundo" Numero='1' />
+                <TextBox Titulo={tip} Numero='1' Texto={ text } />
 
-                <TextBox Titulo="Tip-1" Texto="Hola a todo mundo" Numero='2'/>
+                <TextBox Titulo={tip}  Numero='2' Texto={ text }/>
 
-                <TextBox Titulo="Tip-2" Texto="Hola a todo mundo" Numero='1'/>
+                <TextBox Titulo={tip}  Numero='3' Texto={ text }/>
 
-                <TextBox Titulo="Tip-1" Texto="Hola a todo mundo" Numero='2'/>
+                <TextBox Titulo={tip}  Numero='4' Texto={ text }/>
 
-                <TextBox Titulo="Tip-2" Texto="Hola a todo mundo" Numero='1'/>
+                <TextBox Titulo={tip}  Numero='5' Texto={ text } />
+
+                <TextBox Titulo={tip}  Numero='6' Texto={ text }/>
+                
+                <TextBox Titulo={tip}  Numero='7' Texto={ text }/>
+
+                <TextBox Titulo={tip}  Numero='8' Texto={ text } />
+
+
+             
 
             </div>
         </div>

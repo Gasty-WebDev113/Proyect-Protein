@@ -18,7 +18,8 @@ class Title extends React.Component {
     
     render(){
         return(
-            <div>
+            <div className="Title">
+                
                 <div>
                     <h1 className="Title_h1">The First React Proyect
                     <p className="Title_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet ipsum eu augue rhoncus fermentum. Pellentesque dictum efficitur nisi id molestie. Suspendisse malesuada, nibh id egestas pulvinar, lectus tellus ornare velit, ac aliquam ipsum urna vel ligula. Nulla luctus porta ligula vel laoreet. Suspendisse potenti
