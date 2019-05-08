@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Quienes_Somos.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import TextBox from './TextBox'
 
 
 class Quienes_Somos extends React.Component {
@@ -35,36 +36,15 @@ class Quienes_Somos extends React.Component {
                      !!! Tips For New Developers !!!!</h1> 
                 </div>
 
-                <div className='Consejo_1' id="Consejo-1" data-aos="fade-right">
+                <TextBox Titulo="Tip-2" Texto="Hola a todo mundo" Numero='1' />
 
-                    <h1 className="Consejo1_titulo">Tip #1</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla augue id magna suscipit, ac mattis lacus blandit. Cras at lorem lobortis, varius enim a, pulvinar ligula. Vivamus id arcu nibh. Proin justo risus, consequat ac venenatis vitae, auctor a nisl. Fusce facilisis neque ut rhoncus condimentum. Donec non accumsan tortor. Nam id imperdiet velit. Suspendisse aliquet diam ac dictum sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut lectus egestas, tristique enim in, porttitor nisl. In in leo consequat, sodales ipsum non, bibendum est. Maecenas sed rutrum magna.</p>
-                
-                </div>
+                <TextBox Titulo="Tip-1" Texto="Hola a todo mundo" Numero='2'/>
 
-                <div className='Consejo_1' id="Consejo-2" data-aos="fade-left">
+                <TextBox Titulo="Tip-2" Texto="Hola a todo mundo" Numero='1'/>
 
-                    <h1 className="Consejo1_titulo" >Tip #2</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla augue id magna suscipit, ac mattis lacus blandit. Cras at lorem lobortis, varius enim a, pulvinar ligula. Vivamus id arcu nibh. Proin justo risus, consequat ac venenatis vitae, auctor a nisl. Fusce facilisis neque ut rhoncus condimentum. Donec non accumsan tortor. Nam id imperdiet velit. Suspendisse aliquet diam ac dictum sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut lectus egestas, tristique enim in, porttitor nisl. In in leo consequat, sodales ipsum non, bibendum est. Maecenas sed rutrum magna.</p>
-                </div>
+                <TextBox Titulo="Tip-1" Texto="Hola a todo mundo" Numero='2'/>
 
-                <div className='Consejo_1' id="Consejo-3" data-aos="fade-right">
-
-                    <h1 className="Consejo1_titulo" >Tip #3</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla augue id magna suscipit, ac mattis lacus blandit. Cras at lorem lobortis, varius enim a, pulvinar ligula. Vivamus id arcu nibh. Proin justo risus, consequat ac venenatis vitae, auctor a nisl. Fusce facilisis neque ut rhoncus condimentum. Donec non accumsan tortor. Nam id imperdiet velit. Suspendisse aliquet diam ac dictum sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut lectus egestas, tristique enim in, porttitor nisl. In in leo consequat, sodales ipsum non, bibendum est. Maecenas sed rutrum magna.</p>
-                </div>
-
-                <div className='Consejo_1' id="Consejo-4" data-aos="fade-left">
-
-                    <h1 className="Consejo1_titulo" >Tip #4</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla augue id magna suscipit, ac mattis lacus blandit. Cras at lorem lobortis, varius enim a, pulvinar ligula. Vivamus id arcu nibh. Proin justo risus, consequat ac venenatis vitae, auctor a nisl. Fusce facilisis neque ut rhoncus condimentum. Donec non accumsan tortor. Nam id imperdiet velit. Suspendisse aliquet diam ac dictum sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut lectus egestas, tristique enim in, porttitor nisl. In in leo consequat, sodales ipsum non, bibendum est. Maecenas sed rutrum magna.</p>
-                </div>
-
-                <div className='Consejo_1' id="Consejo-5" data-aos="fade-right">
-
-                    <h1 className="Consejo1_titulo" >Tip #5</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla augue id magna suscipit, ac mattis lacus blandit. Cras at lorem lobortis, varius enim a, pulvinar ligula. Vivamus id arcu nibh. Proin justo risus, consequat ac venenatis vitae, auctor a nisl. Fusce facilisis neque ut rhoncus condimentum. Donec non accumsan tortor. Nam id imperdiet velit. Suspendisse aliquet diam ac dictum sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut lectus egestas, tristique enim in, porttitor nisl. In in leo consequat, sodales ipsum non, bibendum est. Maecenas sed rutrum magna.</p>
-                </div>
+                <TextBox Titulo="Tip-2" Texto="Hola a todo mundo" Numero='1'/>
 
             </div>
         </div>

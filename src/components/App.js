@@ -26,7 +26,7 @@ function App(){
                                 <a href="#" className="Menu_Name">Home</a>
                             </li>
                             <li className="Menu">
-                                <a href="#" className="Menu_Name" onClick={this.props.ScrollDown}>Tips</a>
+                                <a href="#" className="Menu_Name">Tips</a>
                             </li>
                             <li className="Menu">
                                 <a href="#" className="Menu_Name">About Us</a>
