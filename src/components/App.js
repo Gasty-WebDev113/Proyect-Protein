@@ -5,6 +5,7 @@ import React from 'react'
 import Title from './Title'
 import Quienes_Somos from './Quienes_Somos'
 
+
 //Styles and Images
 import '../styles/App.css'
 import Logo from '../images/logo.svg'

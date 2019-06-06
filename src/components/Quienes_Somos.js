@@ -8,9 +8,6 @@ import TextBox from './TextBox'
 class Quienes_Somos extends React.Component {
 
 
-    constructor(props){
-        super(props);
-      }
     
     
     componentDidMount(){
@@ -26,7 +23,7 @@ class Quienes_Somos extends React.Component {
 
         const text = '"Lorem Ipsum is simply dummy text of the printing and typesetting industry". Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book'
 
-        const tip = "Tip"
+        const tip = "Entrada"
 
         return(
         <div>
@@ -37,7 +34,7 @@ class Quienes_Somos extends React.Component {
                     data-aos-duration="500"
                     >
                     <h1 className='Titulo' >
-                     !!! Tips For New Developers !!!!</h1> 
+                     !!! Blogs For New Developers !!!!</h1> 
                 </div>
 
                 <TextBox Titulo={tip} Numero='1' Texto={ text } />
