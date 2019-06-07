@@ -21,10 +21,16 @@ class Title extends React.Component {
             <div className="Title">
                 
                 <div>
-                    <h1 className="Title_h1">The First React Proyect
-                    <p className="Title_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet ipsum eu augue rhoncus fermentum. Pellentesque dictum efficitur nisi id molestie. Suspendisse malesuada, nibh id egestas pulvinar, lectus tellus ornare velit, ac aliquam ipsum urna vel ligula. Nulla luctus porta ligula vel laoreet. Suspendisse potenti
+                <div className="video-background-color"><img className="video-background" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" alt="esperar"/></div>
+                    <h1 className="Title_h1">The React - Kaizen
+                    <p className="Title_p">This is my first proyect with React Framework, using all of his functions, telling you in my personal blogs my way in this awsome framework.
+                    <br/><br/>Let's Start :D
                     </p>
                     </h1>
+
+                    <div className="button-see-my-blogs"><span className="button-see-my-blogs-text">See my blogs</span></div>
+                    <div className="button-follow-me"><span className="button-follow-me-text">Follow Me</span></div>
+                    
                     
                     <h2 className="Title_h2">See More</h2>
                     <div className="Circle_button" onClick={this.ScrollDown}>

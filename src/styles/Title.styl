@@ -32,11 +32,21 @@ $keyframe-name = boton_crecimiento
         width: 100px
         opacity: 1
 
-.Title
-    background-image: -webkit-linear-gradient(top, blue, white)
-   
+
+.video-background
+
     height: 600px
     width: 100%
+    opacity: 0.5
+    position: absolute
+    filter: blur(8px)
+
+.Title
+    /*background-image: -webkit-linear-gradient(top, black 75%, white)*/
+    
+    height: 600px
+    width: 100%
+    background: black
 
 
 .Title_h1,.Title_p,.Title_h2,.Circle_button
@@ -70,15 +80,50 @@ $keyframe-name = boton_crecimiento
     top: 30px;
 
 .Title_h2
-    margin-top: 80px
-    margin-bottom: 20px
+    margin-top: 150px
+    margin-bottom: 10px
  
     color: #ffa500
     -webkit-animation-duration: 3s
     -webkit-animation-fill-mode: both
     -webkit-animation-name: movimiento_inicial 
-    bottom: 40px
- 
+
+.button-see-my-blogs, .button-follow-me 
+    height: 40px
+    width: 150px
+    background: orange 
+    border-radius: 20px 
+    text-align: center
+    cursor: pointer
+    -webkit-animation-duration: 5s
+    -webkit-animation-fill-mode: none 
+    -webkit-animation-name: movimiento_circulo
+    bottom: 160px
+    position: absolute
+    margin-bottom: 50px
+    display: inline-block
+    transform: translate(-50%, -50%);
+    left: 44%
+    border: 2px solid orange
+
+.button-see-my-blogs-text, .button-follow-me-text
+    font-size: 15px
+    position: relative
+    vertical-align: middle
+    top: 5px
+    color: 	white
+    font-weight: bolder
+    
+
+.button-follow-me 
+    left: 56%
+    z-index: 0.25 
+    background: none
+    border: 2px solid #D0D0D0
+
+.button-follow-me-text
+    color: #D0D0D0
+
 .Circle_button
     position: relative
     height: 75px
@@ -86,7 +131,7 @@ $keyframe-name = boton_crecimiento
     background: orange
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 130px
+    top: 150px
     border-radius: 50%
     -webkit-animation-duration: 5s
     -webkit-animation-fill-mode: none 
