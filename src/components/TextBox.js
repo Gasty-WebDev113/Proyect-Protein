@@ -13,7 +13,7 @@ class TextBox extends React.Component {
 
     render(){
 
-        if (this.props.Numero%2 == 0) { //Si el numero del tip del componente es par, se ve desde la derecha, sino se ve desde la izquierda
+        if (this.props.Numero%2 === 0) { //Si el numero del tip del componente es par, se ve desde la derecha, sino se ve desde la izquierda
 
         return(
         <div className='Consejo_1' id="Consejo-1" data-aos="fade-right">

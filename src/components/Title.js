@@ -29,7 +29,7 @@ class Title extends React.Component {
                     </h1>
 
                     <div className="button-see-my-blogs"><span className="button-see-my-blogs-text">See my blogs</span></div>
-                    <div className="button-follow-me"><span className="button-follow-me-text">Follow Me</span></div>
+                    <div className="button-follow-me"><a href="https://www.linkedin.com/in/gaston-morales-09673b15a/" target="_blank" rel="noopener noreferrer" className="button-follow-me-text">Follow Me</a></div>
                     
                     
                     <h2 className="Title_h2">See More</h2>
