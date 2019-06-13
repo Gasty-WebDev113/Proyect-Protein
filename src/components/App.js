@@ -5,7 +5,7 @@ import React from 'react'
 import Title from './Title'
 import QuienesSomos from './Quienes_Somos'
 import Layout from './Layout'
-
+import LitleIntro from './LittleIntro'
 
 //Styles and Images
 import '../styles/App.css'
@@ -19,6 +19,7 @@ function App(){
             
             <Layout />
             <Title />
+            <LitleIntro />
             <QuienesSomos />
           
          </div>

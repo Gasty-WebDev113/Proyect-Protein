@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Layout.css';
 import Logo from '../images/logo.svg';
-
+import Logo2 from '../images/logo_corazon.svg';
 
 class Layout extends React.Component{
 
@@ -40,6 +40,7 @@ class Layout extends React.Component{
                             
                             <a href="/" className="Logo"> 
                                 <img className="Logo" src={Logo} alt=""/>
+                                <img className="Logo2" src={Logo2} alt=""/>
                             </a>
                             <li className="Menu">
                                 <a href="/" className={this.state.Menu_options}>Home</a>

@@ -21,7 +21,7 @@ class Title extends React.Component {
             <div className="Title">
                 
                 <div>
-                <div className="video-background-color"><img className="video-background" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" alt="esperar"/></div>
+                <div className="video-background-color"><img className="video-background" width='100%' src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" alt="esperar"/></div>
                     <h1 className="Title_h1">The React - Kaizen
                     <p className="Title_p">This is my first proyect with React Framework, using all of his functions, telling you in my personal blogs my way in this awsome framework.
                     <br/><br/>Let's Start :D
