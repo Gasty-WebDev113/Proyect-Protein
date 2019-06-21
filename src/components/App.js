@@ -16,11 +16,11 @@ function App(){
     return(
         
         <div>
-            
             <Layout />
             <Title />
             <LitleIntro />
             <QuienesSomos />
+  
           
          </div>
 
@@ -28,5 +28,7 @@ function App(){
 
 
 }
+
+//  <QuienesSomos /> 
 
 export default App

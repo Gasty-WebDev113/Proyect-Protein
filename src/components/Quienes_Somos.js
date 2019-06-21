@@ -26,7 +26,7 @@ class Quienes_Somos extends React.Component {
         const tip = "Entrada"
 
         return(
-        <div>
+
            
             <div className='Fondo_consejos'>
                 <div className='Caja-Titulo' data-aos='fade-down' 
@@ -61,7 +61,7 @@ class Quienes_Somos extends React.Component {
              
 
             </div>
-        </div>
+
         )
     }
 

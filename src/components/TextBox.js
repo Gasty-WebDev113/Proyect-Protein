@@ -10,13 +10,14 @@ class TextBox extends React.Component {
         Numero: ''
       };
 
+ 
 
     render(){
 
         if (this.props.Numero%2 === 0) { //Si el numero del tip del componente es par, se ve desde la derecha, sino se ve desde la izquierda
 
         return(
-        <div className='Consejo_1' id="Consejo-1" data-aos="fade-right">
+        <div className='Consejo_1' id="Consejo-1" data-aos="fade-left" >
            
     
                 <h1 className="Consejo1_titulo"> {this.props.Titulo} #{this.props.Numero} </h1>
@@ -25,7 +26,7 @@ class TextBox extends React.Component {
         </div>
         )} else {
             return(
-                <div className='Consejo_1' id="Consejo-2" data-aos="fade-left">
+                <div className='Consejo_1' id="Consejo-2" data-aos="fade-right">
                    
             
                         <h1 className="Consejo1_titulo"> {this.props.Titulo} #{this.props.Numero}</h1>
