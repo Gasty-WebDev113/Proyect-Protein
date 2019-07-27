@@ -1,34 +1,26 @@
 //Packages
 import React from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 //Components
-import Title from './Title'
-import QuienesSomos from './Quienes_Somos'
 import Layout from './Layout'
-import LitleIntro from './LittleIntro'
+
+//Paginas
+import Home from '../pages/Home'
+import Blogs from '../pages/Blogs'
+
 
 //Styles and Images
 import '../styles/App.css'
 
 
-function App(){
+const App = (props) => (
+    <BrowserRouter>
+        <Layout/>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Blogs" component={Blogs} />
+    </BrowserRouter>
+)
 
-    return(
-        
-        <div>
-            <Layout />
-            <Title />
-            <LitleIntro />
-            <QuienesSomos />
-  
-          
-         </div>
-
-    );
-
-
-}
-
-//  <QuienesSomos /> 
 
 export default App
